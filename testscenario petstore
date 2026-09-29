@@ -1,0 +1,29 @@
+Write Possible Test Scenarios (Positive and Negative) for website https://petstore.octoperf.com/actions/Catalog.action
+Positive Test Scenarios:
+Verify that the user can open the PetStore website successfully.
+Verify that the user can navigate to different pet categories.
+Verify that the user can select a product from a category.
+Verify that the user can view product details.
+Verify that the user can search for a product using a valid keyword.
+Verify that the user can add a product to the shopping cart.
+Verify that the user can update the quantity of a product in the cart.
+Verify that the user can remove a product from the cart.
+Verify that the registered user can login with valid username and password.
+Verify that the user can proceed to checkout with products in the cart.
+Verify that the user can enter valid payment and shipping information.
+Verify that the user can place an order successfully.
+Verify that the user can sign out successfully.
+Verify that the user can review order information after placing an order.
+Negative Test Scenarios:
+Verify that login fails when the username is invalid.
+Verify that login fails when the password is invalid.
+Verify that login validation works when username and password are left empty.
+Verify that search shows an appropriate message when no keyword is entered.
+Verify that search handles a keyword for which no product exists.
+Verify that the user cannot proceed to checkout when the shopping cart is empty.
+Verify that the system validates invalid payment card details.
+Verify that the system validates an invalid expiry date during payment.
+Verify that invalid characters are rejected in phone and ZIP code fields.
+Verify that the system handles a quantity greater than the available stock correctly.
+Verify that an out-of-stock item cannot be ordered successfully.
+Verify that the user cannot complete checkout with required fields left empty.
